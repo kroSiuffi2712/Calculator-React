@@ -1,0 +1,148 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    margin:auto;
+    align-items: center;
+    border: solid;
+    border-color: black;
+    background-color: black;
+    margin-top: 40px;
+    border-radius: 15px;  
+     
+  }
+.container > div, button {
+    line-height: 65px;
+    border: none;
+}
+
+.keyboard{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+    width: 80%;
+    color: black;
+  }
+
+  .operator > button{
+  background-color: #4b4c4e;
+  color: black;
+  }
+  
+  .number > div, button {
+    background-color: #f1f1f1;
+    width: 100px;
+    height: 75px;
+    text-align: center;
+    font-size: 30px;
+    height: 268px; 
+    
+  }
+
+  .number>div, button:hover {
+    cursor:pointer;
+    background-color: #166322;
+  }
+
+  .operator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 78px;
+    height: 268px;
+ 
+  }
+  
+  .operator > div, button {
+    width: 70px;
+    height: 65px;
+    text-align: center;
+    font-size: 30px;
+    margin: 1px;
+    border-radius: 15px;   
+  }
+
+.number > button {
+    background-color:white;
+    margin: 1px 1px 1px 1px;
+    color:rgb(13, 71, 109);
+}
+
+.operator> button:hover {
+  cursor:pointer;
+  background-color: rgb(148, 177, 204);
+  color: #303130;
+}
+
+.number,   .operator {
+    background-color:black
+}
+
+.number> button:hover {
+  cursor:pointer;
+  background-color: #303130;
+  color: #e0fae0;
+}
+
+.display, .clear{
+    height: 60px;
+    
+}
+.display{
+  background-color: #abbee6;
+  color: rgb(43, 52, 136);
+  border-radius: 15px;  
+  margin: 10px 5px 10px 5px; 
+  width: 95%;
+  font-family: digital;
+  font-size: 30px;
+  text-align: right;
+}
+
+.display>div {
+  margin:0px 10px 0px 10px;
+}
+
+.clear {
+  color: white;
+  background-color:rgb(13, 71, 109);
+  margin: 1px 0px 3px 0px;
+  border-radius: 15px;
+  width: 98%;
+}
+
+.clear:hover {
+  cursor:pointer;
+  background-color:#303130;
+}
+
+#equals, #decimal{
+  color: white;
+  background-color:rgb(13, 71, 109);
+}
+
+#decimal:hover{
+  color: white;
+  background-color: #303130;
+}
+
+#equals:hover{
+  color: white;
+  background-color: #303130;
+}
